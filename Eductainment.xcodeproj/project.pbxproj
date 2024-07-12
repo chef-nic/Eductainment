@@ -11,6 +11,8 @@
 		CDB466502C40912B00615873 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB4664F2C40912B00615873 /* ContentView.swift */; };
 		CDB466522C40912C00615873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB466512C40912C00615873 /* Assets.xcassets */; };
 		CDB466552C40912C00615873 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB466542C40912C00615873 /* Preview Assets.xcassets */; };
+		CDB4665E2C41C00700615873 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB4665D2C41C00700615873 /* GameView.swift */; };
+		CDB466602C41C02000615873 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB4665F2C41C02000615873 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		CDB4664F2C40912B00615873 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CDB466512C40912C00615873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDB466542C40912C00615873 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDB4665D2C41C00700615873 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		CDB4665F2C41C02000615873 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				CDB4664D2C40912B00615873 /* EductainmentApp.swift */,
 				CDB4664F2C40912B00615873 /* ContentView.swift */,
+				CDB4665F2C41C02000615873 /* SettingsView.swift */,
+				CDB4665D2C41C00700615873 /* GameView.swift */,
 				CDB466512C40912C00615873 /* Assets.xcassets */,
 				CDB466532C40912C00615873 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDB466502C40912B00615873 /* ContentView.swift in Sources */,
+				CDB466602C41C02000615873 /* SettingsView.swift in Sources */,
+				CDB4665E2C41C00700615873 /* GameView.swift in Sources */,
 				CDB4664E2C40912B00615873 /* EductainmentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
